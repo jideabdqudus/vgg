@@ -1,9 +1,9 @@
 import React from "react";
-import Timeline from "../assets/TIMELINE 2-01.png"
+import Timeline from "../assets/TIMELINE 2-01.png";
 
 const Success = () => {
   return (
-    <div>
+    <div className="container">
       <h3
         style={{
           textAlign: "center",
@@ -28,6 +28,7 @@ const Success = () => {
         technology to transform the world around us. Here are some of our
         transformative partnerships and investments
       </p>
+      <img src={Timeline} alt="timeline" width="800" style={{textAlign:"center"}} />
     </div>
   );
 };

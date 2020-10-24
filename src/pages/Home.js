@@ -5,6 +5,7 @@ import Particles from "react-particles-js";
 import "./pages.css";
 import About from "../components/About";
 import Focus from "../components/Focus";
+import Success from "../components/Success";
 const Home = () => {
   return (
     <div>
@@ -25,7 +26,7 @@ const Home = () => {
         <Focus />
       </div>
       <div className="bgSuccess">
-        <Focus />
+        <Success/>
       </div>
     </div>
   );
