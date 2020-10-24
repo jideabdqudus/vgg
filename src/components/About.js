@@ -7,7 +7,7 @@ const About = () => {
         style={{
           textAlign: "center",
           fontSize: "30px",
-          fontWeight: "normal",
+          fontWeight: "bold",
           color: "#2992d0",
           padding: "20px",
         }}

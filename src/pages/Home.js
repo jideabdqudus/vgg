@@ -11,13 +11,17 @@ const Home = () => {
       <div className="bgImg">
         <TopBar />
         <Particles style={{ position: "absolute" }} />
+        <Particles style={{ position: "absolute" }} />
+        <Particles style={{ position: "absolute" }} />
         <Headline />
       </div>
       <div className="bgAbout">
         <About />
       </div>
       <div className="bgFocus">
-        <Particles  />
+        <Particles style={{ position: "absolute" }} />
+        <Particles style={{ position: "absolute" }} />
+        <Particles style={{ position: "absolute" }} />
         <Focus />
       </div>
     </div>
