@@ -24,6 +24,9 @@ const Home = () => {
         <Particles style={{ position: "absolute" }} />
         <Focus />
       </div>
+      <div className="bgSuccess">
+        <Focus />
+      </div>
     </div>
   );
 };
