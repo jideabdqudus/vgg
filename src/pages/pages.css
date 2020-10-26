@@ -38,3 +38,21 @@
 .bgSuccess{
     background: #ffffff;
 }
+
+.bgJoin{
+   background-image: url(../assets/open-workspace-2.jpg);  
+   background-position: 100% 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   border-bottom: 0 !important;
+}
+
+.bgOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #013042;
+    opacity: .75;
+}

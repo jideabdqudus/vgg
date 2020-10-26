@@ -6,6 +6,7 @@ import "./pages.css";
 import About from "../components/About";
 import Focus from "../components/Focus";
 import Success from "../components/Success";
+import Join from "../components/Join";
 const Home = () => {
   return (
     <div>
@@ -26,7 +27,11 @@ const Home = () => {
         <Focus />
       </div>
       <div className="bgSuccess">
-        <Success/>
+        <Success />
+      </div>
+      <div className="bgJoin">
+        <Join />
+        <div className="bgOverlay"></div>
       </div>
     </div>
   );
