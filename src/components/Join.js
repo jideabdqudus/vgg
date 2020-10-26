@@ -3,7 +3,7 @@ import "./components.css";
 
 const Join = () => {
   return (
-    <div>
+    <div className="container" style={{zIndex:900}}>
       <h3
         style={{
           textAlign: "center",

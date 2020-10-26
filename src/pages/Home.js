@@ -7,6 +7,7 @@ import About from "../components/About";
 import Focus from "../components/Focus";
 import Success from "../components/Success";
 import Join from "../components/Join";
+import Subscribe from "../components/Subscribe";
 const Home = () => {
   return (
     <div>
@@ -32,6 +33,9 @@ const Home = () => {
       <div className="bgJoin">
         <Join />
         <div className="bgOverlay"></div>
+      </div>
+      <div>
+        <Subscribe/>
       </div>
     </div>
   );
