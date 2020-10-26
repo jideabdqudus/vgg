@@ -3,7 +3,7 @@ import "./components.css";
 
 const Join = () => {
   return (
-    <div className="container" style={{zIndex:900}}>
+    <div className="container" style={{ paddingBottom: "68px" }}>
       <h3
         style={{
           textAlign: "center",
@@ -32,7 +32,7 @@ const Join = () => {
           maxWidth: "70%",
           margin: "0 auto",
           textAlign: "center",
-          color:"white"
+          color: "white",
         }}
       >
         Our team is made up of smart and driven people who want to use

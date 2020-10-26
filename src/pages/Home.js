@@ -8,6 +8,7 @@ import Focus from "../components/Focus";
 import Success from "../components/Success";
 import Join from "../components/Join";
 import Subscribe from "../components/Subscribe";
+import Footer from "../layout/Footer";
 const Home = () => {
   return (
     <div>
@@ -36,6 +37,9 @@ const Home = () => {
       </div>
       <div>
         <Subscribe/>
+      </div>
+      <div className="bgFooter">
+        <Footer/>
       </div>
     </div>
   );
